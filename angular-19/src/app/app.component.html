@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>TouchSpin Angular Test - Angular 19</h1>
+
+  <div class="demo">
+    <h2>Basic Spinner</h2>
+    <touch-spin
+      name="value1"
+      [(ngModel)]="value1"
+      [min]="0"
+      [max]="100"
+      [step]="1">
+    </touch-spin>
+    <p>Value: {{ value1 }}</p>
+  </div>
+</div>
