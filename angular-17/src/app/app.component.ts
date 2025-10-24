@@ -9,7 +9,7 @@ import { TouchSpinVanillaComponent, type TouchSpinHandle } from '@touchspin/angu
   imports: [CommonModule, FormsModule, TouchSpinVanillaComponent],
   template: `
     <div class="App">
-      <h1>TouchSpin Angular Event Demo</h1>
+      <h1>TouchSpin Angular 17 Event Demo</h1>
 
       <div class="demo-section">
         <h2>Imperative API Methods</h2>
