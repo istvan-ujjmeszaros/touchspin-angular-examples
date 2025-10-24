@@ -1,11 +1,12 @@
 import { Component, ViewChild } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { TouchSpinVanillaComponent, type TouchSpinHandle } from '@touchspin/angular/vanilla';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [FormsModule, TouchSpinVanillaComponent],
+  imports: [CommonModule, FormsModule, TouchSpinVanillaComponent],
   template: `
     <div class="App">
       <h1>TouchSpin Angular Event Demo</h1>
@@ -50,7 +51,7 @@ import { TouchSpinVanillaComponent, type TouchSpinHandle } from '@touchspin/angu
           (onSpeedChange)="handleEvent('onSpeedChange')"
         >
         </touch-spin>
-        <p>Current value: ${{ value.toFixed(2) }} USD</p>
+        <p>Current value: {{ value.toFixed(2) }} USD</p>
       </div>
 
       <div class="demo-section">
