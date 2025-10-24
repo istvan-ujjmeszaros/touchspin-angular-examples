@@ -13,14 +13,8 @@ This repository contains standalone Angular CLI projects that consume `@touchspi
 ```bash
 cd angular-19
 npm install
-npm run start
+npm run start -- --port 5000
 ```
 
-Before running any example, make sure the library has been built:
-
-```bash
-cd ../touchspin-angular
-yarn workspace @touchspin/angular build
-```
-
-Then start the Angular app on your preferred port (e.g. `npm run start -- --port 5000`).
+All projects pull `@touchspin/angular` from npm (currently `^5.1.5`), so no local build step is required.  
+If you want to validate an unpublished dist build instead, point the relevant `package.json` dependency to your local path and rebuild the library before starting the app.
