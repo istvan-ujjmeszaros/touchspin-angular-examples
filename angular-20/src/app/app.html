@@ -23,7 +23,8 @@
     <touch-spin
       #touchSpinComponent
       name="value"
-      [(ngModel)]="value()"
+      [ngModel]="value()"
+      (ngModelChange)="value.set($event)"
       [min]="0"
       [max]="100"
       [step]="0.5"
