@@ -51,7 +51,7 @@ import { TouchSpinVanillaComponent, type TouchSpinHandle } from '@touchspin/angu
           (onSpeedChange)="handleEvent('onSpeedChange')"
         >
         </touch-spin>
-        <p>Current value: {{ value.toFixed(2) }} USD</p>
+        <p>Current value: \${{ value.toFixed(2) }} USD</p>
       </div>
 
       <div class="demo-section">
