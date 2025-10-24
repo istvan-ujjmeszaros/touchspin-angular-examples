@@ -72,12 +72,34 @@ import { TouchSpinVanillaComponent, type TouchSpinHandle } from '@touchspin/angu
       margin: 0 auto;
       padding: 2rem;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.12);
+      border: 1px solid #c7d2fe;
+      --ts-wrapper-background-color: #ffffff;
+      --ts-wrapper-border-color: #1d4ed8;
+      --ts-wrapper-box-shadow: 0 4px 16px rgba(30, 64, 175, 0.2);
+      --ts-wrapper-focus-border-color: #1e40af;
+      --ts-wrapper-focus-box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.35), 0 6px 16px rgba(15, 23, 42, 0.18);
+      --ts-input-text-color: #0f172a;
+      --ts-input-placeholder-color: #64748b;
+      --ts-button-background-color: #2563eb;
+      --ts-button-background-color-hover: #1d4ed8;
+      --ts-button-background-color-active: #1e3a8a;
+      --ts-button-text-color: #ffffff;
+      --ts-button-border-color: transparent;
+      --ts-addon-background-color: #dbeafe;
+      --ts-addon-text-color: #1d4ed8;
+      --ts-vertical-button-background-color: #2563eb;
+      --ts-vertical-button-background-color-hover: #1d4ed8;
+      --ts-vertical-button-text-color: #ffffff;
+      --ts-vertical-button-border-color: transparent;
     }
 
     h1 {
-      text-align: center;
-      color: #333;
+      color: #0b1120;
       margin-bottom: 2rem;
+      font-size: 2.5rem;
     }
 
     .demo-section {
