@@ -18,7 +18,7 @@
     "@angular/platform-browser": "^19.1.0",
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/router": "^19.1.0",
-    "@touchspin/angular": "^5.1.5",
+    "@touchspin/angular": "^5.2.0",
     "@touchspin/core": "^5.0.1",
     "@touchspin/renderer-vanilla": "^5.0.1",
     "rxjs": "~7.8.0",
